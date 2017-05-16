@@ -1,0 +1,172 @@
+body {
+	background-color: #F7F6F2;
+}
+#container {
+	width: 85%;
+	height: auto;
+	background-color: #F7F6F2;
+	margin: 0 auto;
+}
+#header {
+	width: 95%;
+	height: 60px;
+	border-bottom: 1px solid #000000;
+	margin: 0 auto;
+
+}
+.title {
+	font-family: 'Syncopate', sans-serif;
+	line-height: 60px;
+	display: inline-block;
+}
+#hs {
+	display: inline-block;
+	width: 50px;
+	height: 100%;
+	float: right;
+}
+#headshot {
+		background-image: url(images/headshot.jpg);
+		width: 100%;
+		height: 120%;
+		position: relative;
+		bottom: 12px;
+		background-size: cover;
+		border-left: 1px solid #000000;
+}
+.navbar ul {
+	list-style-type: none;
+}
+.navbar ul li {
+	display: inline-block;
+	margin-left: 1em;
+}
+.navbar ul li a {
+	font-family: 'Cabin Sketch', cursive;
+	text-decoration: none;
+	color: #000000;
+}
+.navbar ul li a:hover {
+	font-family: 'Cabin Sketch', cursive;
+	text-decoration: none;
+	color: #b7b7b7;
+}
+#main {
+	width: 75%;
+	height: 550px;
+	background-size: cover;
+	margin:0 auto;
+}
+#img {
+	width: 100%;
+	height: 100%;
+	background-image: url(images/bg.jpg);
+	background-size: cover;
+}
+#footer {
+	width: 100%;
+	height: 60px;
+	border-top: 1px solid black;
+	margin: 0 auto;
+}
+#login {
+	font-family: 'Cabin Sketch', cursive;
+	text-decoration: none;
+	color: #b7b7b7;	
+	margin-left: 20px;
+	margin-top: 5px;
+}
+#loginform {
+	background-color: white;
+	width: 75%;
+	margin: 0 auto;
+}
+#blogs {
+    width: 100%;
+    height: 550px;
+    overflow-y: scroll;
+    overflow-x:hidden;
+}
+#posts {
+	font-family: 'Raleway', sans-serif;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+#space {
+	margin-bottom: 20px;
+}
+#bio {
+	width: 80%;
+	height:auto;
+	margin: 0 auto;
+	overflow: scroll;
+}
+#photo {
+	width: 20%;
+	height: auto;
+	display: inline-block;
+	margin-right: 10px;
+}
+#photo1 {
+	width: 100%;
+	height: auto;
+}
+#information {
+	display: inline-block;
+	vertical-align: top;
+}
+#aboutheader {
+	width: 80%;
+	height: 20px;
+	border-bottom: 1px solid #000000;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	margin-top: 20px;
+}
+
+
+@media all and (max-width: 41.25em) {
+	.title {
+		font-size: .80em;
+	}
+	.navbar {
+		margin: 0 auto;
+	}
+	.navbar ul li {
+		display: inline-block;
+		font-size: .85em;
+		padding-left: 0;
+		margin-left: .5em;
+	}
+	.navbar ul {
+		list-style-type: none;
+		padding-left: 0;
+	}
+	#main {
+		width: 75%;
+		height: auto;
+		background-size: cover;
+		margin:0 auto;
+	}
+	#img {
+		width: 100%;
+		height: 100%;
+		background-image: url(images/bg.jpg);
+		background-size: cover;
+		overflow: scroll;
+
+	}
+	#footer {
+		width: 100%;
+		height: 30px;
+		border-top: 1px solid black;
+		margin: 0 auto;
+	}
+}
+@media all and (min-width: 41.25em) {
+	.title {
+		font-size: 1.5em;
+	}
+
+}
+

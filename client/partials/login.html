@@ -1,0 +1,54 @@
+<div id="loginform">
+<!-- <div>
+	<h3>Register:</h3>
+	<form ng-submit="DC.create(DC.newUser)">
+		<div>
+			<label>Name:</label>
+			<input type="text" ng-model="DC.newUser.name">
+		</div>
+		<div>
+			<label>Email:</label>
+			<input type="text" ng-model="DC.newUser.email">
+		</div>
+		<div>
+			<label>Password:</label>
+			<input type="password" ng-model="DC.newUser.password">
+		</div>
+		<div>
+			<label>Confirm Password:</label>
+			<input type="password" ng-model="DC.newUser.password_confirmation">
+		</div>
+		<div>
+			<input type="submit" value="Register">
+		</div>
+		<div >
+			<ul>
+				<li ng-repeat="error in DC.registrationErrors">{{error}}</li>
+			</ul>
+		</div>
+	</form>
+</div> -->
+	
+<div>
+	<h3>Administrative Login</h3>
+	<form ng-submit="DC.login(DC.loginUser)">
+		<div>
+			<label>Email:</label>
+			<input type="text" ng-model="DC.loginUser.email">
+		</div>
+		<div>
+			<label>Password:</label>
+			<input type="password" ng-model="DC.loginUser.password">
+		</div>
+		<div>
+			<input type="submit" value="Login">
+		</div>
+		<div >
+			<ul>
+				<li ng-repeat="error in DC
+				.loginErrors">{{error}}</li>
+			</ul>
+		</div>
+	</form>
+</div>
+</div>

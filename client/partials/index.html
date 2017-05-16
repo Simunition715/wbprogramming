@@ -1,0 +1,41 @@
+<div id="container"  ng-controller="DashboardController as DC" ng-init="DC.index()">
+
+		<div id="header">
+			<h1 class="title">WB Programming</h1>
+		</div>
+
+		<div class="navbar">
+
+			<div id="navrwd">
+				<ul>
+					<li><a href="#!/about">ABOUT</a></li>
+					<li><a href="https://www.linkedin.com/in/william-blackwell-471723136/" target="_blank">LINKEDIN</a></li>
+					<li><a href="https://github.com/Simunition715" target="_blank">GITHUB</a></li>
+					<li><a href="https://twitter.com/simunition715" target="_blank">TWITTER</a></li>
+				</ul>
+			</div>
+
+		</div>	
+
+			<div id="main">
+
+				<div id="img">
+					<div  id="blogs">
+						<div ng-repeat="post in DC.posts | orderBy: '-createdAt'">
+							<div id="space">
+								<h4 id="posts">{{post.createdAt | date:"M/dd/yyyy"}}</h4>
+								<h4 id="posts">{{post.post}}</h4>	
+							</div>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+		<div id="footer">
+			<div id="login">
+				<a id="login" href="#!/login">Login</a>
+			</div>
+		</div>
+</div>

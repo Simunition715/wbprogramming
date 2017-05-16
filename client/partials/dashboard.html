@@ -1,0 +1,12 @@
+<div>
+	<form ng-submit="DC.createPost(DC.newPost)">
+		<div>
+			<textarea cols="60" rows="5" ng-model="DC.newPost.post"></textarea>
+		</div>	
+		<div>
+			<input type="submit" value="Create Post">
+		</div>	
+	</form>
+
+	<input type="submit" value="logout" ng-click="DC.logout()">
+</div>
