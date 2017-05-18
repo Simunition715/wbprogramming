@@ -51,6 +51,7 @@ and (-webkit-min-device-pixel-ratio: 2){
 	}
 	.boxes {
 		width: 24%;
+		height: 233px;
 		border:1px solid black;
 		display: inline-block;
 		background-color: white;
