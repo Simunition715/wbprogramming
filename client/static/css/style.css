@@ -1,5 +1,8 @@
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 768px) and (-webkit-min-device-pixel-ratio: 2){
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) 
+and (-webkit-min-device-pixel-ratio: 2){
 	#container {
 		width: 100%;
 		height: auto;
@@ -144,6 +147,156 @@
 		margin:20px auto 15px auto;
 	}
 }
+
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) 
+and (-webkit-min-device-pixel-ratio: 2){
+	#container {
+		width: 100%;
+		height: auto;
+		background-color: #F7F6F2;
+		margin: 0px auto 0px auto;
+	}
+	#header {
+		width: 95%;
+		height: 100%;
+		border-bottom: 1px solid #000000;
+		margin: 20px auto 20px auto;
+		text-align: center;
+
+	}
+	.title {
+		font-family: 'Syncopate', sans-serif;
+		font-size: 4em;
+		line-height: 60px;
+		display: inline-block;
+		margin-top: 0;
+	}
+	#hs {
+		display: inline-block;
+		width: 50px;
+		height: 100%;
+		float: right;
+	}
+	#headshot {
+			background-image: url(images/headshot.jpg);
+			width: 100%;
+			height: 120%;
+			position: relative;
+			bottom: 12px;
+			background-size: cover;
+			border-left: 1px solid #000000;
+	}
+	#image {
+		width: 100%;
+		height: 100%;
+	}
+	#boxes {
+		width: 100%;
+		height: 100%;
+		margin: 20px auto 20px auto;
+		padding-left: 12px;
+	}
+	.boxes {
+		width: 24%;
+		height:233px;
+		border:1px solid black;
+		display: inline-block;
+		background-color: white;
+		overflow: hidden;
+		border-radius: 25px;	
+	}
+	.navbar ul {
+		list-style-type: none;
+		display: none;
+	}
+	.navbar ul li {
+		display: inline-block;
+		margin-left: 1em;
+	}
+	.navbar ul li a {
+		font-family: 'Cabin Sketch', cursive;
+		text-decoration: none;
+		color: #000000;
+	}
+	.navbar ul li a:hover {
+		font-family: 'Cabin Sketch', cursive;
+		text-decoration: none;
+		color: #b7b7b7;
+	}
+	#main {
+		width: 75%;
+		height: 100%;
+		background-size: cover;
+		margin:0 auto;
+	}
+	#img {
+		width: 100%;
+		height: 100%;
+		background-size: cover;
+	}
+	#footer {
+		width: 100%;
+		height: 60px;
+		border-top: 1px solid black;
+		background-color: black;
+		background-size: cover;
+		margin: 0 auto;
+	}
+	#login {
+		display: none;
+		font-family: 'Cabin Sketch', cursive;
+		text-decoration: none;
+		color: #F7F6F2;	
+		margin: 5px 0 0 20px;
+	}
+	#loginform {
+		background-color: white;
+		width: 75%;
+		margin: 0 auto;
+	}
+	#blogs {
+	    width: 100%;
+	    height: 1300px;
+	    overflow-x:hidden;
+	}
+	#posts {
+		font-family: 'Raleway', sans-serif;
+		font-size: 3em;
+		margin:5px 0 5px 0;
+	}
+	#space {
+		margin-bottom: 20px;
+	}
+	#bio {
+		width: 80%;
+		height:auto;
+		margin: 0 auto;
+		overflow: scroll;
+	}
+	#photo {
+		width: 20%;
+		height: auto;
+		display: inline-block;
+		margin-right: 10px;
+	}
+	#photo1 {
+		width: 100%;
+		height: auto;
+	}
+	#information {
+		display: inline-block;
+		vertical-align: top;
+	}
+	#aboutheader {
+		width: 80%;
+		height: 20px;
+		border-bottom: 1px solid #000000;
+		margin:20px auto 15px auto;
+	}
+}
+
 @media only screen and (min-device-width : 769px) and (max-device-width : 769px) {
 	#boxes {
 		display: none;
